@@ -1,0 +1,107 @@
+body, h1, h2, h3, div {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #F2F1ED;
+  color: #444;
+  border-radius: 10px;
+}
+
+main {
+  border-radius: 10px;
+  border: 2px solid #de5a51;
+  padding: 20px 0;
+  margin: 30px auto;
+  width: 600px;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 auto;
+  font-weight: bold;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 90%;
+  line-height:32px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h3 {
+  margin: 20px;
+  font-weight: bold;
+}
+
+ul {
+  border: 2px solid #de5a51;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px 30px;
+  width: 200px;
+}
+
+.todos{
+  width: 71%;
+}
+
+li {
+  padding: 5px 0;
+}
+
+content {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  margin: 20px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: 2px solid #de5a51;
+  border-radius: 10px;
+  background-color: inherit;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input {
+  font-size: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  border: 2px solid #de5a51;
+  border-radius: 10px;
+  height: 23px;
+  padding: 0 5px;
+}
+input:focus {
+  outline: 0;
+}
+
+.todos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration:line-through;
+}
