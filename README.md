@@ -9,7 +9,7 @@ joeQuery is a lightweight library featuring DOM manipulation, DOM traversal, eve
 For a demo, open up demo/index.html in the browser. There you will find a CheckList demo app built with joeQuery.
 ##
 
-##API
+## API
 
 ### DOM Manipulation
 
