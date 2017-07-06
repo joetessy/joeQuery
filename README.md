@@ -2,13 +2,9 @@
 
 joeQuery is a lightweight library featuring DOM manipulation, DOM traversal, event handling, and ajax requests.
 
-##
-
 ## Demo
 
 Check out this [Live Demo](https://joetessy.github.io/joeQueryDemo/ "live demo") of the library! Here you will find a simple CheckList application built with joeQuery.
-
-##
 
 ## API
 
